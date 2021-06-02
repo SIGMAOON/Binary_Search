@@ -2,8 +2,6 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         
-        # 76ms, 14.3 MB
-        
         intersection = []
         
         for num in nums1:
