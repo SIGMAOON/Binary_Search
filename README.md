@@ -1,2 +1,3 @@
 # Binary_Search
-leetcode binary search problem solving 
+binary search problem solving 
+leetcoed, Baekjoon
