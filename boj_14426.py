@@ -1,4 +1,4 @@
-# 접두사 찾기,pypy3 -> python3 방법 찾기
+# 접두사 찾기,pypy3
 N,M = map(int,input().split())
 string = [input() for _ in range(N)]
 cnt = 0
