@@ -5,19 +5,18 @@ pas = [int(input()) for _ in range(pa_num)]
 pa_total = sum(pas)
 
 start = 1
-end = pa_total//chicken
+end = max(pas)
 
-answer = []
+answer = 0
 
 while start<=end:
   mid = (start+end)//2
   cnt = 0
   for pa in pas:
-    cnt+=int(pa/mid)
-  if cnt == chicken:
-    answer.append(mid)
+    cnt+=pa//mid
   if cnt >= chicken:
+    answer = mid
     start = mid + 1
   else:
     end = mid - 1
-print(pa_total - max(answer)*chicken)
+print(pa_total - answer*chicken)
