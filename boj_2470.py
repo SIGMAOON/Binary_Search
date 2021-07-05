@@ -1,7 +1,7 @@
 # 두 용액
 import sys
 N = int(input())
-portion = sorted(list(map(int,input().split())))
+portion = sorted(list(map(int,sys.stdin.readline().split())))
 
 start = 0
 end = len(portion) - 1
